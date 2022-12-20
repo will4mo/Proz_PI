@@ -1,0 +1,125 @@
+*{
+    color:white;
+    margin: 0%;
+    font-family: 'Courier New', Courier, monospace; 
+   
+}
+body{
+    background-image: url("https://c1.wallpaperflare.com/preview/996/689/206/wood-grain-structure-texture.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    
+}
+header{
+    display: flex;
+   
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace; 
+}
+
+#head{
+    background-color: black;
+    width:80%;
+    height: 180px;
+    border-radius: 20px;
+    opacity: 0.80;
+    margin-left: 10%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    position: fixed; /* move junto com o scroll */
+    z-index: 4; /* mov elementos para cima */
+   
+}
+
+nav{
+    font-family: 'Courier New', Courier, monospace; 
+    display: flex;
+    justify-content:space-evenly;
+    gap: 30px;
+    margin-top: 4%;
+    font-family: 'Bodoni Moda', serif;
+    font-size: 25px;
+
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 5px;
+    text-decoration: none;
+    
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;  
+    color:inherit;
+}
+
+#icones{
+    
+    gap: 30px;
+    display:flex;
+    margin-top: 55px;
+
+    
+}
+
+i{
+    color: white;
+    font-size: 40px;
+   
+}
+
+#nos{
+ margin-top: 210px;
+ text-align: center;
+ color: black;
+ font-size: 45px;
+ color: white;
+   
+}
+
+#image{
+    width: 900px;
+    background-image: url("./img/nos.jpg");
+    background-size: 100% 100%;
+    height: 700px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+#sobre{
+    width: 900px;
+    height: 300px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: black;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+footer{
+    background-color: black;
+    width:80%;
+    height: 40px;
+    border-radius: 20px;
+    margin: auto;
+    padding: auto;
+    opacity: 0.85;
+    text-align: center;
+   
+}
+
+
+
